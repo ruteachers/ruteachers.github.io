@@ -1,0 +1,9 @@
+# Site settings
+title: 벌떡교사들
+email: ruteachers@hanmail.net
+description: >
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ruteacher.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
