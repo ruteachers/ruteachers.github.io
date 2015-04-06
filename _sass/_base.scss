@@ -43,6 +43,9 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 
@@ -83,6 +86,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+h2 {
+    margin-top: 2em;
+}
 
 
 /**
@@ -201,4 +207,14 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1em auto;
+}
+th, td {
+    border: 1px solid #777;
+    font-size: 0.9em;
+    padding: 5px;
 }
