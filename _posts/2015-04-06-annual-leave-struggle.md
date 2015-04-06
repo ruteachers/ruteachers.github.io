@@ -4,6 +4,9 @@ title:  "최대한 많은 찬성표로 연가 투쟁을 가결시키자!"
 date:   2015-04-06
 ---
 
+<meta property="og:image" content="http://ruteachers.github.io/assets/2015-04-06-1.jpg" />    
+
+
 4.24 민주노총 총파업을 앞두고 전교조를 비롯한 각 부문에서 총투표가 진행 중이다. 이미 투표가 끝난 현대·기아차 등 금속 조합원들의 투표 참여율이 높다고 한다. 
 
 ![](/assets/2015-04-06-1.jpg)
