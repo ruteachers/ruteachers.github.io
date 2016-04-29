@@ -15,8 +15,19 @@
     <meta name="description" content="{{ site.description }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-
     {% if page.url == "/2015/04/06/annual-leave-struggle.html" %}
     	<meta property="og:image" content="http://ruteachers.github.io/assets/2015-04-06-1.jpg" />
+    {% endif %}
+    {% if page.url == "/" %}
+        <link rel="canonical" href="https://ruteachers.wordpress.com/" />
+    {% endif %}
+    {% if page.url == "/2015/08/07/struggle-planning-is-required.html" %}
+        <link rel="canonical" href="https://ruteachers.wordpress.com/2015/08/07/%EB%85%B8%EB%8F%99%EC%8B%9C%EC%9E%A5-%EA%B5%AC%EC%A1%B0-%EA%B0%9C%EC%95%85-%EA%B5%90%EC%9B%90%ED%8F%89%EA%B0%80%EC%A0%9C%EB%8F%84-%EC%95%85%ED%99%94-%EA%B5%90%EC%9C%A1%EA%B3%BC%EC%A0%95-%EA%B0%9C/" />
+    {% endif %}
+    {% if page.url == "/2015/09/01/delegate-meeting.html" %}
+        <link rel="canonical" href="https://ruteachers.wordpress.com/2015/09/02/8%EC%9B%94-29%EC%9D%BC-%EC%A0%84%EA%B5%90%EC%A1%B0-%EB%8C%80%EC%9D%98%EC%9B%90%EB%8C%80%ED%9A%8C-%EB%B0%95%EA%B7%BC%ED%98%9C%EC%9D%98-%EA%B3%B5%EC%84%B8%EC%97%90-%EB%A7%9E%EC%84%9C-%ED%88%AC/" />
+    {% endif %}
+    {% if page.url == "/2015/10/02/kgeu-defend.html" %}
+        <link rel="canonical" href="https://ruteachers.wordpress.com/2015/10/02/%ea%b3%b5%eb%ac%b4%ec%9b%90%ec%97%b0%ea%b8%88-%eb%b9%bc%ec%95%97%eb%8d%94%eb%8b%88-%eb%85%b8%ec%a1%b0-%ec%82%ac%eb%ac%b4%ec%8b%a4%ea%b9%8c%ec%a7%80-%eb%82%b4%eb%86%93%ec%9c%bc%eb%9d%bc%eb%8a%94/" />
     {% endif %}
 </head>
